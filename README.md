@@ -1,30 +1,48 @@
-# React + TypeScript + Vite
+# QUIZ APP
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple quiz application built using TypeScript, React, and Material-UI. It allows users to take a quiz, manage quiz questions, and view their results.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Quiz Taking: Users can take a quiz with a time limit of 15 seconds per question.
+- Question Management: Admins can manage quiz questions, including adding new questions and deleting existing ones.
+- Results Page: Users can view their quiz results upon completion.
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### 1.Clone the repository:
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+```bash
+git clone https://github.com/your-username/quiz-app.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### 2.Clone the repository:
+
+```bash
+cd quiz-app
+```
+
+### 3.Clone the repository:
+
+```bash
+npm install
+```
+
+### 4.Clone the repository:
+
+```bash
+npm start
+```
+
+### 5.Open your browser and navigate to http://localhost:3000 to view the app.
+
+## Usage
+
+-To start the quiz, click on the "Start Test" button on the homepage.
+-Answer each question within the time limit.
+-After answering all questions, click on the "Submit" button to view your results.
+-Admins can manage questions by clicking on the "Manage Questions" button on the homepage.
+
+## Credits
+
+This app was created by Vishal Sharma. It was developed as an assignment for BlendNetAI.
